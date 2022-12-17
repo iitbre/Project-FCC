@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    margin: 0; padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    overflow-x: hidden;
+}
+.sec{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*KARYA KAMI*/
+.photobanner {
+	height: 500px;
+	width: 2540px;
+	margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+	        animation: bannermove 14.5s linear infinite;
+}
+ 
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -1080px;
+ }
+ 
+}
+h1{
+    font-weight: 300;
+    font-size: 5vw;
+    margin: 3vw;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+}
+ 
+.karya{
+    color: white;
+    background-color: rgb(14, 14, 14);
+}
+
+.detail{
+    margin-right: 2vw;
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+
+}
+.yes{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yes div{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yes span{
+    text-align: right;
+}
+.yes img{
+    width: 350px;
+
+}
